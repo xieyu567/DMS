@@ -1,4 +1,4 @@
-FROM python:3.7.8-slim
+FROM python:3.7.8
 ENV PYTHONUNBUFFERED 1
 
 RUN apt-get update
