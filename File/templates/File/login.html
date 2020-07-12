@@ -1,0 +1,10 @@
+{% extends 'admin/login.html' %}
+{% load i18n static simpletags %}
+{% get_current_language as LANGUAGE_CODE %}{% get_current_language_bidi as LANGUAGE_BIDI %}
+{% load static %}
+
+{% block head %}
+    {% block title %}
+        <title>{{ site_title }}用户登录</title>
+    {% endblock %}
+{% endblock %}
